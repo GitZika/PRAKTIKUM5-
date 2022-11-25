@@ -7,26 +7,26 @@
 
 ### Kelas:TI 22 A3
 
-## Latihan 
+# Latihan 
 
-Dictionary adalah Koleksi item yang berasosiasi dimana setiap pasangan terdiri _key_ dan _value_.
+## Dictionary adalah Koleksi item yang berasosiasi dimana setiap pasangan terdiri _key_ dan _value_.
 
-_Key_ dan _Value_ sebagai 'Key' : 'Value'
+## _Key_ dan _Value_ sebagai 'Key' : 'Value'
 
-Dictionary ditulis dengan dipisahkan koma dalam ```{}```
+## Dictionary ditulis dengan dipisahkan koma dalam ```{}```
 
 ```
 telepon = {'Jika' : '085840022606', 'Jiro' : '081324526336'}
 ```
 
-untuk menampilkan kontak 
+### untuk menampilkan kontak 
 ```
 print(telepon['Jika'])
 ```
 
 ---
 
-Untuk menambahkan elemen dictionary 
+### Untuk menambahkan elemen dictionary 
 
 ```
 telepon['Asep']
@@ -34,7 +34,7 @@ telepon['Asep']
 
 ---
 
-untuk mengubah dictionary hampir sama dengan menambahkannya
+### untuk mengubah dictionary hampir sama dengan menambahkannya
 
 ```
 telepon['Jiro'] = '081324526336'
@@ -42,60 +42,60 @@ telepon['Jiro'] = '081324526336'
 
 ---
 
-Untuk menampilkan semua nama/key nya menggunakan perintah
+### Untuk menampilkan semua nama/key nya menggunakan perintah
 
 ```
 print(telepon.keys())
 ```
 
-Output nya akan menghasilkan
+### Output nya akan menghasilkan
 
 <img width="223" alt="first" src="https://user-images.githubusercontent.com/118233561/203963402-d2204129-8794-436a-9ccc-e26a03999d05.png">
 
 
 ---
 
-Untuk menampilkan semua nomor telepon/value
+### Untuk menampilkan semua nomor telepon/value
 
 ```
 print(telepon.values())
 ```
 
-Output nya akan menghasilkan 
+### Output nya akan menghasilkan 
 
 <img width="370" alt="two" src="https://user-images.githubusercontent.com/118233561/203963500-0e689197-c587-4cc4-9e0b-f193b54ceb6b.png">
 
 
 ---
 
-Untuk menampilkan daftar Nama dan Nomor nya gunakan perintah ```for```
+### Untuk menampilkan daftar Nama dan Nomor nya gunakan perintah ```for```
 
 ```
 for nama,nomor in telepon.items():
     print("%s \t| %s " % (nama,nomor))
 ```
 
-Output nya akan menghasilkan
+### Output nya akan menghasilkan
 
 <img width="139" alt="3" src="https://user-images.githubusercontent.com/118233561/203963539-c063eb0c-c4e5-40c8-94f1-4955c0cd6a8f.png">
 
 
 ---
 
-Hapus kontak Jiro menggunakan
+### Hapus kontak Jiro menggunakan
 
 ``` 
 del telepon['Jiro']
 ```
 
-Maka kontak Jiro akan terhapus
+### Maka kontak Jiro akan terhapus
 
 <img width="145" alt="4" src="https://user-images.githubusercontent.com/118233561/203963570-6c44967c-102f-427e-a5b0-27ae9b35a586.png">
 
 
 ---
 
-## Tugas Praktikum
+# Tugas Praktikum
 
 Buat dictionary kosong
 ```
