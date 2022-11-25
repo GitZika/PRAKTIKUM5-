@@ -1,0 +1,31 @@
+telepon = {
+    'Jika' : '085740022606',
+    'Jiro' : '081324526336'
+}
+
+print(telepon['Jika'])
+
+print("\n")
+
+telepon['Asep'] = '081234568765'
+telepon['Jiro'] = '081324526336'
+
+print(telepon.keys())
+print(telepon.values())
+
+print("\n")
+
+print("Nama\t| Nomor Telepon ")
+print("======================")
+
+for nama,nomor in telepon.items():
+    print("%s \t| %s " % (nama,nomor))
+
+print("\n")
+
+del telepon['Jiro']
+
+print("Nama\t| Nomor Telepon")
+print("======================")
+for key,val in telepon.items():
+    print("%s \t| %s " % (key,val))
