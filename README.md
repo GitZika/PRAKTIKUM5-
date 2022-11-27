@@ -16,12 +16,12 @@
 ## Dictionary ditulis dengan dipisahkan koma dalam ```{}```
 
 ```
-telepon = {'Jika' : '085840022606', 'Jiro' : '081324526336'}
+telepon = {'Ari' : '081267888', 'Dina' : '087677776'}
 ```
 
 ### untuk menampilkan kontak 
 ```
-print(telepon['Jika'])
+print(telepon['Ari'])
 ```
 
 ---
@@ -29,7 +29,7 @@ print(telepon['Jika'])
 ### Untuk menambahkan elemen dictionary 
 
 ```
-telepon['Asep']
+telepon['Riko']
 ```
 
 ---
@@ -37,7 +37,7 @@ telepon['Asep']
 ### untuk mengubah dictionary hampir sama dengan menambahkannya
 
 ```
-telepon['Jiro'] = '081324526336'
+telepon['Dina'] = '088999776'
 ```
 
 ---
@@ -82,13 +82,13 @@ for nama,nomor in telepon.items():
 
 ---
 
-### Hapus kontak Jiro menggunakan
+### Hapus kontak DIna menggunakan
 
 ``` 
-del telepon['Jiro']
+del telepon['Dina']
 ```
 
-### Maka kontak Jiro akan terhapus
+### Maka kontak Dina akan terhapus
 
 <img width="145" alt="4" src="https://user-images.githubusercontent.com/118233561/203963570-6c44967c-102f-427e-a5b0-27ae9b35a586.png">
 
