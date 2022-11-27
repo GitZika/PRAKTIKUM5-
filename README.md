@@ -50,7 +50,7 @@ print(telepon.keys())
 
 ### Output nya akan menghasilkan
 
-<img width="223" alt="first" src="https://user-images.githubusercontent.com/118233561/203963402-d2204129-8794-436a-9ccc-e26a03999d05.png">
+<img width="218" alt="s 1" src="https://user-images.githubusercontent.com/118233561/204115523-552466fb-9937-48cc-aa42-7255cb327384.png">
 
 
 ---
@@ -63,7 +63,8 @@ print(telepon.values())
 
 ### Output nya akan menghasilkan 
 
-<img width="370" alt="two" src="https://user-images.githubusercontent.com/118233561/203963500-0e689197-c587-4cc4-9e0b-f193b54ceb6b.png">
+<img width="321" alt="s 2" src="https://user-images.githubusercontent.com/118233561/204115538-2fcffc83-0e14-4a2d-b66b-ff9c2249d6e5.png">
+
 
 
 ---
@@ -77,7 +78,7 @@ for nama,nomor in telepon.items():
 
 ### Output nya akan menghasilkan
 
-<img width="139" alt="3" src="https://user-images.githubusercontent.com/118233561/203963539-c063eb0c-c4e5-40c8-94f1-4955c0cd6a8f.png">
+<img width="145" alt="s 3" src="https://user-images.githubusercontent.com/118233561/204115560-7fa0284d-d7e1-4d8d-8b18-428906216fd1.png">
 
 
 ---
@@ -90,7 +91,7 @@ del telepon['Dina']
 
 ### Maka kontak Dina akan terhapus
 
-<img width="145" alt="4" src="https://user-images.githubusercontent.com/118233561/203963570-6c44967c-102f-427e-a5b0-27ae9b35a586.png">
+<img width="150" alt="s 4" src="https://user-images.githubusercontent.com/118233561/204115555-84dd7586-7109-416e-ab28-845cd4230b80.png">
 
 
 ---
