@@ -1,14 +1,14 @@
 telepon = {
-    'Jika' : '085740022606',
-    'Jiro' : '081324526336'
+    'Ari' : '081267888',
+    'Dina' : '087677776'
 }
 
-print(telepon['Jika'])
+print(telepon['Ari'])
 
 print("\n")
 
-telepon['Asep'] = '081234568765'
-telepon['Jiro'] = '081324526336'
+telepon['Riko'] = '087654544'
+telepon['Dina'] = '088999776'
 
 print(telepon.keys())
 print(telepon.values())
@@ -23,7 +23,7 @@ for nama,nomor in telepon.items():
 
 print("\n")
 
-del telepon['Jiro']
+del telepon['Dina']
 
 print("Nama\t| Nomor Telepon")
 print("======================")
